@@ -39,7 +39,7 @@ def slide_show():
 def humor():
     while True:
         if input("Хочеш подивитися меми? Натисни 1\n"
-                 "Щоб завершити, натисни Enther: ") == "1":
+                 "Щоб завершити, натисни Enter: ") == "1":
             slide_show()
         else:
             break

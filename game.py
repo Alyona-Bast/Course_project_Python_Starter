@@ -19,7 +19,7 @@ def game():
                     print(Fore.YELLOW + f'{"~" * 50}\n{"# " * 25}\n{"~" * 50}' + Style.RESET_ALL)
                     xo_1()
                     if input("Бажаєш ще одну партію? Натисни 1\n"
-                             "Повернутися у меню, натисни Enther") == "1":
+                             "Повернутися у меню, натисни Enter") == "1":
                         pass
                     else:
                         break
@@ -28,7 +28,7 @@ def game():
                     print(Fore.YELLOW + f'{"~" * 50}\n{"# " * 25}\n{"~" * 50}' + Style.RESET_ALL)
                     xo_2()
                     if input("Бажаєш ще одну партію? Натисни 1\n"
-                             "Повернутися у меню, натисни Enther") == "1":
+                             "Повернутися у меню, натисни Enter") == "1":
                         pass
                     else:
                         break
@@ -37,7 +37,7 @@ def game():
                     print(Fore.YELLOW + f'{"~" * 50}\n{"# " * 25}\n{"~" * 50}' + Style.RESET_ALL)
                     rspls()
                     if input("Бажаєш ще одну партію? Натисни 1\n"
-                             "Повернутися у меню, натисни Enther") == "1":
+                             "Повернутися у меню, натисни Enter") == "1":
                         pass
                     else:
                         break
