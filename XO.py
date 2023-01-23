@@ -73,13 +73,13 @@ def AI():
     if step == "":
         check_line(1, 0)
     if step == "":
-        check_line(0, 1)
-    if step == "":
         if maps[4] != "X" and maps[4] != "O":
             step = 5
     if step == "":
         if maps[0] != "X" and maps[0] != "O":
             step = 1
+    if step == "":
+        check_line(0, 1)
     return step
 
 
